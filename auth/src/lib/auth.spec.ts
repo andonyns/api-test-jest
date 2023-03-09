@@ -2,6 +2,7 @@ import { doAuth, addUser } from './auth';
 
 describe('auth', () => {
   it('should work', () => {
+    // npm run test auth -- --u
     expect(doAuth()).toMatchInlineSnapshot(`
       {
         "name": "Cheddar",
